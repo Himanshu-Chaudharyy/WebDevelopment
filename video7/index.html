@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and imput</title>
+</head>
+
+<body>
+    <h1>Form to apply </h1>
+    <form action="post">
+        <label for="username">Enter your username</label>
+        <input type="text" name="username" placeholder="Enter your username">
+
+        <div>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">female</label>
+     
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">male</label>
+        </div>
+        <div>
+            <textarea name="comment" id="textarea" cols="30" rows="10">
+            </textarea>
+        </div>
+
+        <div>
+            <select name="fruits" id="select">
+                <option value="Apple">Apple</option>
+                <option value="Banana">Bannana</option>
+                <option value="Cherry">Cherry</option>
+            </select>
+        </div>
+
+    </form>
+</body>
+
+</html>
